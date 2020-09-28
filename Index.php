@@ -31,6 +31,7 @@ $second->add_grade(95);
 $second->add_grade(80);
 $second->add_grade(50);
 $students['a456'] = $second;
+
 $students = array();
 foreach($students as $student)
 echo $student->toString();
